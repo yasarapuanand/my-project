@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #050505;
+  --color-surface: #121212;
+  --color-border-color: #2a2a2a;
+  --color-neon-green: #39FF14;
+  --color-neon-blue: #00F3FF;
+  --color-neon-pink: #FF00FF;
+  --color-text-main: #FFFFFF;
+  --color-text-dim: #888888;
+  --font-mono: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+  margin: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
